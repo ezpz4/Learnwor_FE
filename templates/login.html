@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,9 +15,9 @@
 <div class="login-wrapper">
   <h2>Login</h2>
   <form method="post" action="#" id="login-form">
-      <input type="text" name="userName" placeholder="Email">
-      <input type="password" name="userPassword" placeholder="Password">
-      <input type="submit" value="Login">
+      <input type="text" id="userEmail" name="userEmail" placeholder="Email">
+      <input type="password" id="userPassword" name="userPassword" placeholder="Password">
+      <input type="submit" id="loginSubmitButton" value="Login">
   </form>
   <div id="signup">
   <a href="./signup.html" title="Sign Up">
@@ -35,6 +35,8 @@
       <div style="width: 100%; height: 119px; left: 0px; bottom: 50px; position: absolute; border-top: 3px #BBBBBB solid"></div>
   </footer> -->
 
+<script type="module" src="../js/login.js">
+</script>
 
 </body>
 </html>
