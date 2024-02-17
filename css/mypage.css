@@ -1,6 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 #boxes {
   display: flex; /* 자식 요소를 가로로 나란히 배치합니다. */
 }
+
+#container{
+  /* display: flex;  */
+  justify-content: center;
+  background-color:#9EABBC;
+}
+
 
 #box1{
   width: 300px;
@@ -43,6 +56,7 @@
   /* text-align: center; */
   position: relative;
   color:#0C2D57;
+  margin-bottom:200px;
 }
 
 
@@ -83,3 +97,69 @@ td.word1{
   width:120px;
 }
 
+/* navbar */
+.body {
+  margin: 0;
+  font-family: 'Montserrat';}
+
+a {
+  text-decoration: none;
+  color: #f0f4f5;}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0C2D57;
+  padding: 8px 12px;}
+
+.nav_logo {
+  font-size: 30px;
+  color: #f0f4f5;}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;}
+
+.nav_menu li {
+  font-size: 20px;
+  padding: 5px 12px;
+}
+
+.nav_menu li:hover {
+  color: #0C2D57;;
+  background-color: #FC6736;
+  border-radius: 4px;}
+
+.nav_menu li a:hover {
+  color: #0C2D57;;}
+
+.nav_login {
+  display: flex;
+  color: #7dc0ff;
+  list-style: none;
+  padding-left: 0;}
+
+.nav_login li {
+  font-size:15px;
+  padding: 8px 8px;}
+
+.navbar_toggleBtn {
+  display: none;
+  color:#f0f4f5;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;}
+
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  /* position: bottom; */
+  bottom: 0;
+  /* width: 100%; */
+}
