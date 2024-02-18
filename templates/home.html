@@ -12,7 +12,7 @@
 
 <body id="container">
     <!--나브-->
-    <nav class="navbar">
+    <!-- <nav class="navbar">
     <div class="nav_logo">
         <a href="">Learnwor</a>
     </div>
@@ -27,28 +27,36 @@
     <a href="#" class="navbar_toggleBtn">
         <i class="fa-solid fa-bars"></i>
     </a>
-    </nav>
+    </nav> -->
     
-    <!-- <nav class="navbar">
+    <nav class="navbar">
         <div id="beforeLogin">
             <button id="loginBtn" name="loginBtn">Log In
             </button>
             <button id="signupBtn" name="signupBtn">Sign Up
             </button>
+            <button id="mypageBtn" name="mypage">My page
+            </button>
         </div>
 
-        로그인 성공시-->
-        <!-- <div id="afterLogin">
+        <!-- 로그인 성공시-->
+        <div id="afterLogin">
             <button id="myPage">회원 이름</button>
         </div>  
-    </nav>  -->
+    </nav> 
 
     <div class="scrollable">
 
         <!--링크 페이지-->
         <div id="mainPage" class="scrollable">
             <!--로고-->   
-            <h1 id="logo">Learnwor</h1>    
+            <div class="logos">
+                <h1 id="logo">Learnwor</h1>
+                <div class="circles">
+                    <div class="circle1"></div>   
+                    <div class="circle2"></div>  
+                </div> 
+            </div>
             <!--설명-->
             <div id="example">
                 <p>러너에대한 설명. 어쩌고 저쩌고. </p>
@@ -63,42 +71,41 @@
         <!--원문, 번역문-->
         <div id="translatePage">
             <div>
-                <h5>원문</h5>
-            
-            <textarea id="beforeTranslate" cols="60", rows="45" readonly>이런식으로
-
-            </textarea>
+                <h4 class="before">원문</h4>
+                <textarea id="beforeTranslate" cols="60", rows="45" readonly>
+                    이런식으로
+                </textarea>
             </div>
 
             <div>
-                <h5>원문</h5>
-            <textarea id="afterTranslate" cols="60", rows="45" readonly>?
-
-            </textarea>    
+                <h4 class="after">번역문</h4>
+                <textarea id="afterTranslate" cols="60", rows="45" readonly>
+                    ?
+                </textarea>    
             </div>
         </div>
 
 
-    <!--소개 페이지-->
-    <div class="container2">
-        <div class="title">"LearnNow"란?</div>
-        <div class="content">
-            <p>러너에대한 설명. 어쩌고 저쩌고. </br>
-                우리는 이런이런팀이고 아래에 링크를 넣으면 된다. </br>
-                설명을 넣어줘~~  러너에대한 설명. 어쩌고 저쩌고. </br>
-                우리는 이런이런팀이고 아래에 링크를 넣으면 된다.</p>
-            <p>러너에대한 설명. 어쩌고 저쩌고. </br>
-                우리는 이런이런팀이고 아래에 링크를 넣으면 된다. </br>
-                설명을 넣어줘~~  러너에대한 설명. 어쩌고 저쩌고. </br>
-                우리는 이런이런팀이고 아래에 링크를 넣으면 된다.</p>
+        <!--소개 페이지-->
+        <div class="container2">
+            <div class="title">"LearnNow"란?</div>
+            <div class="content">
+                <p>러너에대한 설명. 어쩌고 저쩌고. </br>
+                    우리는 이런이런팀이고 아래에 링크를 넣으면 된다. </br>
+                    설명을 넣어줘~~  러너에대한 설명. 어쩌고 저쩌고. </br>
+                    우리는 이런이런팀이고 아래에 링크를 넣으면 된다.</p>
+                <p>러너에대한 설명. 어쩌고 저쩌고. </br>
+                    우리는 이런이런팀이고 아래에 링크를 넣으면 된다. </br>
+                    설명을 넣어줘~~  러너에대한 설명. 어쩌고 저쩌고. </br>
+                    우리는 이런이런팀이고 아래에 링크를 넣으면 된다.</p>
+            </div>
         </div>
+
+        <!-- 푸터 -->
+        <footer>ⓒ2024 Learnwor. All right reserved.</footer>
+
     </div>
 
-    
-    <!--푸터-->
-    <div class="footer">ⓒ2024 Learnwor. All right reserved.</div>
-
-
-<script type="text/javascript" src="../js/home.js">
-</script>
+    <script type="text/javascript" src="../js/home.js">
+    </script>
 </body>

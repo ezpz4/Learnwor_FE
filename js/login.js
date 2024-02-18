@@ -29,7 +29,7 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
                 console.log(userCredential)
                 console.log('로그인 성공')
                 const user = userCredential.user;
-                //sessionStorage.setItem('loggedIn', true);
+                sessionStorage.setItem("loggedIn", true);
                 //window.location.href = 'http://127.0.0.1:8000/learnworHome/';
             })
             .catch((error) => {
