@@ -19,8 +19,8 @@ body{
 .logos{
   position: relative;
   display: flex;
-  justify-content: center; /* ·Î°í¸¦ Áß¾Ó¿¡ À§Ä¡ */
-  align-items: center; /* ·Î°í¸¦ ¼öÁ÷ Áß¾Ó¿¡ À§Ä¡ */
+  justify-content: center; /* ï¿½Î°ï¿½ï¿½ï¿½ ï¿½ß¾Ó¿ï¿½ ï¿½ï¿½Ä¡ */
+  align-items: center; /* ï¿½Î°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß¾Ó¿ï¿½ ï¿½ï¿½Ä¡ */
 }
 
 #logo{
@@ -51,6 +51,7 @@ body{
   border: #a1a1a1;
   border-style: solid;
   border-width: 1px;
+  margin-bottom: 200px;
 }
 
 .login-wrapper > h2{
@@ -208,8 +209,8 @@ footer {
   color: #0C2D57;
   padding: 20px;
   text-align: center;
-  position: absolute;
+  margin-bottom: 50px;
   bottom: 0;
   width: 100%;
-  margin-bottom: 50px;
+  margin-top: 100px;
 }
